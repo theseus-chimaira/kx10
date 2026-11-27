@@ -6,6 +6,8 @@ config.cache
 config.h
 config.log
 config.status
+/autom4te.cache/
+/confdefs.h
 dispatch.c
 i_boole.c
 i_hword.c

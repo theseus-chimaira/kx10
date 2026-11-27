@@ -332,7 +332,7 @@ console_init ()
   newflags = oflags | O_NDELAY;	/* Turn on non-blocking reads */
 #else
   /* Enable SIGIO and non-blocking for non-streams ttys */
-  newflags = oflags | FNDELAY | FASYNC;
+  newflags = oflags | O_NONBLOCK | FASYNC;
 #endif
 
   fcntl (console_fd, F_SETFL, newflags);

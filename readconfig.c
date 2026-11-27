@@ -23,6 +23,7 @@
 #include <net/if.h>
 #include <netinet/in.h>
 #include <netinet/if_ether.h>
+#include <netinet/ether.h>
 #include <netdb.h>
 #include <stdio.h>
 #include <string.h>
